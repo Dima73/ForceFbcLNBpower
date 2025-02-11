@@ -10,7 +10,7 @@ from Plugins.Plugin import PluginDescriptor
 from enigma import eTimer
 import os
 
-HasFBCDVBStuner = ["Vuplus DVB-S NIM(7376 FBC)", "Vuplus DVB-S NIM(45308X FBC)", "Vuplus DVB-S NIM(45208 FBC)", "DVB-S2 NIM(45208 FBC)", "DVB-S2X NIM(45308X FBC)", "DVB-S2 NIM(45308 FBC)", "BCM45208", "BCM45308X"]
+HasFBCDVBStuner = ["Vuplus DVB-S NIM(7376 FBC)", "Vuplus DVB-S NIM(45308X FBC)", "Vuplus DVB-S NIM(45208 FBC)", "DVB-S NIM(45208 FBC)", "DVB-S2 NIM(45208 FBC)", "DVB-S2X NIM(45308X FBC)", "DVB-S2 NIM(45308 FBC)", "BCM45208", "BCM45308X"]
 
 config.plugins.miscControl = ConfigSubsection()
 config.plugins.miscControl.forceLnbPower = ConfigSelection(default="off", choices=[("on", _("Yes")), ("off", _("No")), ("auto", _("Auto"))])
